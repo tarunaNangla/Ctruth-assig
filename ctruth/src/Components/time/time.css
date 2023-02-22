@@ -1,0 +1,139 @@
+.flextime{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* align-items: center;padding-left: 300px; */
+}
+.setfontss{
+    font-size: 32px;
+line-height: 43px;
+letter-spacing: -.55px;
+   }
+
+.timepic{
+    padding-top: 20px;
+    height: 400px;
+    padding-left: 300px;
+   }
+
+.flextime1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    /* padding-left:150px; */
+    /* gap:1px; */
+    
+  }
+
+@media only screen and (min-width:755px) and (max-width:1500px)  {
+    .flextime{
+        display: flex;
+        flex-direction: row;
+        gap:100px;
+        /* align-items: center; */padding-left: 300px;
+    }
+
+    /* span{
+        font-size: 32px;
+    line-height: 43px;
+    letter-spacing: -.55px;
+       } */
+
+       .setfontss{
+        font-size: 32px;
+    line-height: 43px;
+    letter-spacing: -.55px;
+       }
+
+    .timepic{
+        height: 400px;
+        padding-left: 150px;
+       }
+
+    .flextime1{
+        display: flex;
+        flex-direction: column;
+        /* padding-left:150px; */
+        /* gap:1px; */
+        
+      }
+ }  
+ 
+
+@media only screen and (min-width:430px) and (max-width:755px)  {
+    .flextime{
+        display: flex;
+        flex-direction: column;
+        gap:"50px"
+    }
+
+    .timepic{
+    height: 400px;
+    padding-left: 150px;
+   }
+
+   .flextime1{
+     display: flex;
+     flex-direction: row;
+     padding-left:150px;
+     gap:60px;
+     
+   }
+    
+   .setfontss{
+    font-size: 32px;
+line-height: 43px;
+letter-spacing: -.55px;
+   }
+
+   span{
+    font-size: 32px;
+   }
+  
+   .ssss{
+    visibility: hidden;
+   }
+ }  
+ 
+ 
+
+@media only screen and (min-width:300px) and (max-width:430px)  {
+   
+    .flextime{
+        display: flex;
+        flex-direction: column;
+        gap:"50px"
+    }
+
+    .timepic{
+    height: 250px;
+    align-items: center;
+    padding-left: 60px;
+   }
+
+   .flextime1{
+     display: flex;
+     flex-direction: row;
+     padding-left: 90px;
+     gap:40px;
+     text-align: left;
+     padding-top: 20px;
+   }
+
+   span{
+    font-size: 20px;
+    
+   }
+
+   .setfontss{
+    font-size: 12px;
+line-height: -43px;
+letter-spacing: -.55px;
+   }
+
+   .ssss{
+    visibility: hidden;
+   }
+}  

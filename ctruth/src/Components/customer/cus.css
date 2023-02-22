@@ -1,0 +1,43 @@
+
+div>h2{
+    font-size: 60px;
+    letter-spacing: -4.48px;
+    text-align: center;
+}
+
+@media only screen and (min-width:755px) and (max-width:1500px)  {
+    div>h2{
+        font-size: 60px;
+        letter-spacing: -4.48px;
+        text-align: center;
+    }
+
+
+    
+ }  
+ 
+
+@media only screen and (min-width:430px) and (max-width:755px)  {
+    div>h2{
+        font-size: 35px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+
+  
+ }  
+ 
+ 
+
+@media only screen and (min-width:300px) and (max-width:430px)  {
+   div>h2{
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+   }
+
+   
+ 
+}  
+

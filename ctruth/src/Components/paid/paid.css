@@ -1,0 +1,107 @@
+
+.paidflex{
+    display: flex;
+    flex-direction: row;
+    gap:1px;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.paidpic{
+    height: 600px;
+    padding-left: 200px;
+ }
+
+ .settfont{
+    font-size: 25px;
+    letter-spacing: -.28px;
+    line-height: 24px;
+    color:#2128bd ;
+    padding-left: 50px;
+    /* padding-top: 40px; */
+}
+
+.settfont1{
+    padding-right: 4px;
+    padding-top: 150px;
+}
+
+ @media only screen and (min-width:755px) and (max-width:1500px)  {
+   
+    .paidflex{
+        display: flex;
+        flex-direction: row;
+        gap:10px
+    }
+
+    .paidpic{
+        height: 500px;
+        padding-left: 100px;
+     }
+
+     .settfont{
+        font-size: 17px;
+        letter-spacing: -.28px;
+        line-height: 24px;
+        color: #2128bd;
+        padding-left: 100px;
+    }
+
+    .settfont1{
+        padding-right: 230px;
+    }
+ }  
+ 
+
+@media only screen and (min-width:430px) and (max-width:755px)  {
+   
+    .paidflex{
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+
+    .paidpic{
+        height: 500px;
+        padding-left: 100px;
+     }
+
+     .settfont{
+        font-size: 17px;
+        letter-spacing: -.28px;
+        line-height: 24px;
+        color: #2128bd;
+        padding-left: 100px;
+    }
+
+    .settfont1{
+        padding-right: 230px;
+    }
+ }  
+ 
+ 
+
+@media only screen and (min-width:300px) and (max-width:430px)  {
+   
+    .paidflex{
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+    .paidpic{
+        height: 400px;
+        padding-left: 0px;
+     }
+   
+    .settfont{
+        font-size: 17px;
+        letter-spacing: -.28px;
+        line-height: 24px;
+        color: #2128bd;
+        padding-left: 100px;
+    }
+    .settfont1{
+        padding-right: 60px;
+    }
+}  
+
